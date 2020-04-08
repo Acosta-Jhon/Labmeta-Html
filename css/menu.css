@@ -1,0 +1,59 @@
+ .navegacion nav{
+     width: 100%;
+     max-width: 1400px;
+     background: #0438c742;
+     display: auto;
+ }
+ .navegacion nav ul{
+     list-style: none;
+     position: relative;
+ }
+ .navegacion nav > ul > li {
+     display: inline-block;
+     border-right: 1px solid #ffffff;
+     
+ }
+ .navegacion nav > ul > li > a{
+     color: rgb(18, 5, 75);
+     text-decoration: none;
+     display: block;
+     padding: 25px;
+ }
+ .navegacion nav > ul > li > a span{
+     font-size: 25px;
+     position: absolute;
+     bottom: -8px;
+     display: none;
+ }
+ .navegacion nav > ul > li:hover span{
+     display: block;
+ }
+ .navegacion nav > ul > li .sub-menu{
+     background: #ffffff;
+     padding: 20px;
+     position: absolute;
+     display: none;
+     -webkit-box-shadow: 10px 10px 9px 0px rgba(0,0,0,0.3);
+     -moz-box-shadow: 10px 10px 9px 0px rgba(0,0,0,0.3);
+     box-shadow: 10px 10px 9px 0px rgba(0,0,0,0.3);
+ }
+ .navegacion nav > ul > li:hover .sub-menu{
+     display: flex;
+ }
+ .navegacion nav > ul > li:hover .sub-menu .sub-menu-items{
+     margin: 0 20px;
+     
+ }
+ .navegacion nav > ul > li:hover .sub-menu .sub-menu-items p{
+     width: 110px;
+     font-weight: 600;
+     display: block;
+     padding-bottom: 5px;
+     border-bottom: 1px solid #38b7bb ;
+     margin-bottom: 10px;
+ }
+ .navegacion nav > ul > li:hover .sub-menu .sub-menu-items a{
+     color: #616161;
+     text-decoration: none;
+     margin: 5px;
+ }
